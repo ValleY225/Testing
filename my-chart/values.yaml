@@ -1,0 +1,8 @@
+replicaCount: 1        # Теперь запустим 3 копии для солидности!
+
+image:
+  repository: nginx
+  tag: latest
+
+ingress:
+  host: my-sandbox.local
